@@ -10,15 +10,18 @@
 <body>
     <section class="container pt-3">
     <h1>Список языков программирования</h1>
-    <form action="">
-        <input type="text" class="form-control" placeholder="Ввести язык программирования">
-        <button class="btn btn-primary form-control">Добавить</button>
-    </form>
+    <!--<form action="">!-->
+        <input type="text" class="form-control my-1" placeholder="Ввести язык программирования">
+        <button id="addLang" class="btn btn-primary form-control">Добавить</button>
+    <!--</form>!-->
     </section>
     <section class="container pt-3">
         <h2>Список языков программирования</h2>
         <ul class="list-group">
-            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">
+                JavaScript
+            <button class="btn btn-danger">Удалить</button>
+        </li>
             <li class="list-group-item">C++</li>
             <li class="list-group-item">Python</li>
         </ul>
